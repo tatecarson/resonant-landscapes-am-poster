@@ -1,16 +1,17 @@
 % for landscape posters, use "a4paper, landscape"
-\documentclass[a4paper]{article}
+\documentclass[a4paper, landscape]{article}
 \usepackage{better_poster}
-
+\usepackage{graphicx}
+\usepackage{multicol}
 
 % ---- fill in from here
 % poster size - this will scale the poster to the given size.
 % for landscape posters add ", landscape" to the postersize command.
-\postersize{a0paper}
+\postersize{a0paper, landscape}
 
 % authors
-\title{A Latex Implementation of Mike Morrison's Better Poster}
-\author{Lana Sinapayen, Someone Else}
+\title{Resonant Landscapes}
+\author{Tate Carson and Carter Gordon, Dakota State University, USA}
 
 % type of poster: [exp]erimental results, [methods], [theory]
 % Disclaimer: the original classification had "study" and "intervention" as separate categories. I group them under experimental results.
@@ -20,69 +21,66 @@
 
 % main point of your study
 \makefinding{
-\textbf{Main finding} goes here, translated into \textbf{plain English}. \textbf{Emphasize} the important words.
+    \textbf{Resonant Landscapes} integrates ambisonic audio and GPS to create immersive soundscapes.
 }
-
-
-% \makemain{
-% }{
-
-% }
-
 
 % the main text of your poster goes here
 \makemain{
     % you can have 1 or 2 columns
     \raggedcolumns
     \begin{multicols}{2}
-        \section{Intro}
+        \section{Introduction}
         \begin{compactitem}
-            \item Just give some context
-            \item No need to cite papers
-            \item because people can download your paper
+            \item Objective: Merge technology and nature.
+            \item Concept: Overlay soundscape recordings from South Dakota state parks onto the DSU campus.
         \end{compactitem}
-        
-        \section{Methods}
-        \begin{compactitem}
-            \item N = 30
-            \item Some math: $w_1 = \epsilon$
-            \item Collected this
-            \item Tested with X statistical test
-        \end{compactitem}
-        
-    % this determines where your columns will be separated
-    \columnbreak
 
-        \section{Results}
-        
-        \includegraphics[width=\linewidth]{icons8-ecg-96.png}
+        \section{Key Features and Technical Implementation}
         \begin{compactitem}
-            \item Your
-            \item Talking
-            \item Points
+            \item \textbf{Ambisonic Audio:} 2nd-order Ambisonic audio, captured with Core Audio OctoMic.
+            \item \textbf{Body-oriented Tracking:} Leverages smartphone sensors to allow users to alter their listening perspective by turning their bodies.
+            \item \textbf{Interaction Design:} Users navigate DSU campus, encountering various listening spots with dynamic soundscapes.
+            \item \textbf{Platform Architecture:} Built with React, Tailwind CSS, Resonance Audio SDK, Omnitone, Turf.js, and Three.js.
         \end{compactitem}
-    
+
+        % this determines where your columns will be separated
+        \columnbreak
+
+        \section{Ecological and Cultural Significance}
+        \begin{compactitem}
+            \item Combines natural and urban soundscapes to foster ecological awareness.
+            \item Maps environmental soundscapes onto physical locations, creating a "hybrid place".
+        \end{compactitem}
+
     \end{multicols}
 }
 % If you have extra figures or data to show
 \makeextracolumn{
-    Add your things here
-    
-    \includegraphics[width=0.5\linewidth]{icons8-stocks-80.png}\includegraphics[width=0.5\linewidth]{icons8-stocks-80.png}
-    
-    \begin{itemize}
-    \setlength\itemsep{0.1em}
-        \item Stuff you don't want to forget
-        \item But is not essential
-    \end{itemize}
+    \begin{compactitem}
+        \item \textbf{Future Developments:}
+        \begin{compactitem}
+            \item Enhancing user interface and interaction methods.
+            \item Including longer audio file playback.
+            \item Expanding the range of soundscapes.
+            \item Engaging with ecologists, sound artists, and community organizations.
+        \end{compactitem}
+        \item \textbf{Visuals:}
+        \begin{compactitem}
+            \item User Flow Diagram
+            \item System Architecture Diagram
+            \item Key Interface Screenshots
+        \end{compactitem}
+    \end{compactitem}
+
+    % \includegraphics[width=0.5\linewidth]{path/to/user_flow_diagram.png}\includegraphics[width=0.5\linewidth]{path/to/system_architecture_diagram.png}
 }
 
 % footer
 % generate qr code from https://www.qr-code-generator.com/ and replace qr_code.png
 % default: barcode on the left
-\makefooter{images/uni_logo.png}{images/qr-code.png}
+% \makefooter{path/to/uni_logo.png}{path/to/qr_code.png}
 
 % replace with this like for barcode on the right
 %\makealtfooter{images/uni_logo.png}{images/qr-code.png}
- 
+
 \end{document}
