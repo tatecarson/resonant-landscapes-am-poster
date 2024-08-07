@@ -1,75 +1,79 @@
-% for landscape posters, use "a4paper, landscape"
 \documentclass[a4paper]{article}
 \usepackage{better_poster}
 \usepackage{graphicx}
 \usepackage{multicol}
 
-% ---- fill in from here
-% poster size - this will scale the poster to the given size.
-% for landscape posters add ", landscape" to the postersize command.
 \postersize{a1paper}
 
-% authors
 \title{Resonant Landscapes}
 \author{Tate Carson and Carter Gordon, Dakota State University, USA}
 
-% type of poster: [exp]erimental results, [methods], [theory]
-% Disclaimer: the original classification had "study" and "intervention" as separate categories. I group them under experimental results.
-\newcommand\postertype{exp} % [exp],[methods],[theory]
+\newcommand\postertype{exp}
 
 \begin{document}
 
-% main point of your study
 \makefinding{
-    \textbf{Resonant Landscapes} integrates ambisonic audio and GPS to create immersive soundscapes.
+    \textbf{Resonant Landscapes} integrates \textbf{ambisonic audio} and \textbf{GPS technology} to create immersive natural soundscapes in urban environments.
 }
 
-% the main text of your poster goes here
 \makemain{
-    % you can have 1 or 2 columns
     \raggedcolumns
     \begin{multicols}{2}
         \section{Introduction}
         \begin{compactitem}
-            \item Objective: Merge technology and nature.
-            \item Concept: Overlay soundscape recordings from South Dakota state parks onto the DSU campus.
+            \item Overlay South Dakota state park soundscapes onto DSU campus.
+            \item Web-based application using frugal innovation principles.
         \end{compactitem}
 
-        \section{Key Features and Technical Implementation}
+        \section{Key Features}
         \begin{compactitem}
-            \item \textbf{Ambisonic Audio:} 2nd-order Ambisonic audio, captured with Core Audio OctoMic.
-            \item \textbf{Body-oriented Tracking:} Leverages smartphone sensors to allow users to alter their listening perspective by turning their bodies.
-            \item \textbf{Interaction Design:} Users navigate DSU campus, encountering various listening spots with dynamic soundscapes.
-            \item \textbf{Platform Architecture:} Built with React, Tailwind CSS, Resonance Audio SDK, Omnitone, Turf.js, and Three.js.
+            \item 2nd-order ambisonic audio for immersive experience.
+            \item GPS integration maps state parks to campus locations.
+            \item Body-oriented tracking using smartphone sensors.
+            \item Dynamic soundscapes based on user proximity.
         \end{compactitem}
 
-        % this determines where your columns will be separated
+        \section{Technical Implementation}
+        \begin{compactitem}
+            \item Core Audio OctoMic for 8-channel audio capture.
+            \item Web technologies: React, Tailwind CSS, Resonance Audio SDK.
+            \item Utilizes smartphone GPS, gyroscope, and accelerometer.
+        \end{compactitem}
+
         \columnbreak
 
-        \section{Ecological and Cultural Significance}
+        \section{User Experience}
         \begin{compactitem}
-            \item Combines natural and urban soundscapes to foster ecological awareness.
-            \item Maps environmental soundscapes onto physical locations, creating a "hybrid place".
+            \item Interactive campus map with listening spots.
+            \item Audio playback within 15-meter radius.
+            \item Body-oriented tracking at spot epicenters.
         \end{compactitem}
 
+        \section{Significance}
+        \begin{compactitem}
+            \item Creates "hybrid place" of natural and urban soundscapes.
+            \item Promotes ecological awareness and attentive listening.
+        \end{compactitem}
+
+        \section{Future Work}
+        \begin{compactitem}
+            \item Enhance user experience through iterative design.
+            \item Expand soundscape database for diverse ecosystems.
+        \end{compactitem}
     \end{multicols}
 }
-% If you have extra figures or data to show
-\makeextracolumn{
-    \begin{compactitem}
-        \item \textbf{Visuals:}
-        \begin{compactitem}
-            \item User Flow Diagram
-            \item System Architecture Diagram
-            \item Key Interface Screenshots
-        \end{compactitem}
-    \end{compactitem}
 
-}
+% \makeextracolumn{
+%     \begin{compactitem}
+%         \item \textbf{Key Visuals:}
+%         \begin{compactitem}
+%             \item User Flow Diagram
+%             \item System Architecture
+%             \item Interface Screenshots
+%         \end{compactitem}
+%     \end{compactitem}
+% }
 
-% footer
-% generate qr code from https://www.qr-code-generator.com/ and replace qr_code.png
-% default: barcode on the left
 \makefooter{images/DSU_UniversityLogo_Icon_BLK.png}{images/qr-code.png}
 
 \end{document}
