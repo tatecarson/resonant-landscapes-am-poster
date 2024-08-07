@@ -1,5 +1,5 @@
 % for landscape posters, use "a4paper, landscape"
-\documentclass[a4paper, landscape]{article}
+\documentclass[a4paper]{article}
 \usepackage{better_poster}
 \usepackage{graphicx}
 \usepackage{multicol}
@@ -7,7 +7,7 @@
 % ---- fill in from here
 % poster size - this will scale the poster to the given size.
 % for landscape posters add ", landscape" to the postersize command.
-\postersize{a0paper, landscape}
+\postersize{a1paper}
 
 % authors
 \title{Resonant Landscapes}
@@ -57,13 +57,6 @@
 % If you have extra figures or data to show
 \makeextracolumn{
     \begin{compactitem}
-        \item \textbf{Future Developments:}
-        \begin{compactitem}
-            \item Enhancing user interface and interaction methods.
-            \item Including longer audio file playback.
-            \item Expanding the range of soundscapes.
-            \item Engaging with ecologists, sound artists, and community organizations.
-        \end{compactitem}
         \item \textbf{Visuals:}
         \begin{compactitem}
             \item User Flow Diagram
@@ -72,15 +65,11 @@
         \end{compactitem}
     \end{compactitem}
 
-    % \includegraphics[width=0.5\linewidth]{path/to/user_flow_diagram.png}\includegraphics[width=0.5\linewidth]{path/to/system_architecture_diagram.png}
 }
 
 % footer
 % generate qr code from https://www.qr-code-generator.com/ and replace qr_code.png
 % default: barcode on the left
-% \makefooter{path/to/uni_logo.png}{path/to/qr_code.png}
-
-% replace with this like for barcode on the right
-%\makealtfooter{images/uni_logo.png}{images/qr-code.png}
+\makefooter{images/DSU_UniversityLogo_Icon_BLK.png}{images/qr-code.png}
 
 \end{document}
