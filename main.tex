@@ -12,8 +12,8 @@
 \postersize{a1paper}
 
 % authors
-\title{Resonant Landscapes}
-\author{Tate Carson and Carter Gordon, Dakota State University, USA}
+\title{\textit{Resonant Landscapes}}
+\author{Tate Carson \& Carter Gordon, Dakota State University, USA}
 
 % type of poster: [exp]erimental results, [methods], [theory]
 % Disclaimer: the original classification had "study" and "intervention" as separate categories. I group them under experimental results.
@@ -23,7 +23,7 @@
 
 % main point of your study
 \makefinding{
-    \textbf{Resonant Landscapes} creates a \textbf{hybrid place}, merging natural soundscapes with urban spaces through \textbf{ambisonic audio} and \textbf{GPS technology}.
+    \textit{\textbf{Resonant Landscapes}} creates a \textbf{hybrid place}, merging natural soundscapes with urban spaces through \textbf{ambisonic audio} and GPS technology.
 }
 
 
@@ -35,70 +35,67 @@
 
 % the main text of your poster goes here
 \makemain{
+
     % you can have 1 or 2 columns
     \raggedcolumns
-    \begin{multicols}{2}
-        \section{Introduction}
-        \begin{compactitem}
-            \item Web-based app overlaying South Dakota state park soundscapes onto Dakota State University's campus
-            \item Uses frugal innovation: existing smartphone sensors and open-source software
-            \item 2nd-order ambisonic audio with GPS integration (Figure 1)
-            \item Body-oriented tracking and dynamic soundscapes based on user proximity
-        \end{compactitem}
+    \raggedright
+    \small
+    % \begin{multicols}{1}
+    \section{Introduction}
+    \begin{compactitem}
+        \item Web-based app overlaying South Dakota state park soundscapes onto Dakota State University's campus
+        \item Uses frugal innovation: existing smartphone sensors and open-source software
+        \item 2nd-order ambisonic audio with GPS integration
+        \item Body-oriented tracking and dynamic soundscapes based on user proximity
+    \end{compactitem}
 
-        \section{Significance}
-        \begin{compactitem}
-            \item Creates "hybrid place" of natural and urban soundscapes
-            \item Promotes ecological awareness and attentive listening
-        \end{compactitem}
+    \section{Significance}
+    \begin{compactitem}
+        \item Creates "hybrid place" of natural and urban soundscapes
+        \item Promotes ecological awareness and attentive listening
+    \end{compactitem}
 
-        \columnbreak
+    % \columnbreak
 
-        \section{User Experience}
-        \begin{compactitem}
-            \item Interactive campus map with listening spots (Figure 1)
-            \item Audio playback within 15-meter radius; body-oriented tracking at epicenters (Figure 2)
-        \end{compactitem}
+    \section{User Experience}
+    \begin{compactitem}
+        \item Interactive campus map with listening spots
+        \item Audio playback within 15-meter radius; body-oriented tracking at epicenters
+    \end{compactitem}
 
-        \section{Technical Details}
-        \begin{compactitem}
-            \item Core Audio OctoMic
-            \item Web tech: React, Tailwind CSS, Resonance Audio SDK
-            \item Smartphone sensors: GPS, gyroscope, accelerometer (Figure 3)
-        \end{compactitem}
+    \section{Technical Details}
+    \begin{compactitem}
+        \item Core Audio OctoMic
+        \item Web tech: React, Tailwind CSS, Resonance Audio SDK
+        \item Smartphone sensors: GPS, gyroscope, accelerometer
+    \end{compactitem}
 
-        \section{Future Work}
-        \begin{compactitem}
-            \item Enhance user experience through iterative design
-            \item Expand soundscape database for diverse ecosystems
-            \item Implement longer, uninterrupted audio playback
-        \end{compactitem}
-    \end{multicols}
+    \section{Future Work}
+    \begin{compactitem}
+        \item Enhance user experience through iterative design
+        \item Expand soundscape database for diverse ecosystems
+        \item Longer audio playback
+    \end{compactitem}
+    % \end{multicols}
 }
 % If you have extra figures or data to show
 \makeextracolumn{
 
     \begin{center}
-        \includegraphics[width=0.49\linewidth]{figures/intro.PNG}\includegraphics[width=0.49\linewidth]{figures/overview.png}
-        \textbf{Figure 1:} Introduction Screen
-        \label{fig:intro}
+        \includegraphics[width=0.44\linewidth]{figures/intro.PNG}
+        \vspace{1cm}
+        \hspace{0.5cm}
+        \includegraphics[width=0.44\linewidth]{figures/overview.PNG}
+        \includegraphics[width=0.44\linewidth]{figures/fisher-grove-11-meters.png}
+        \hspace{0.5cm}
+        \includegraphics[width=0.44\linewidth]{figures/IMG_0424.PNG}
 
-        \vspace{1.2cm}
-
-        \includegraphics[width=\linewidth]{figures/user-flow.png}
-        \textbf{Figure 2:} User Flow
-        \label{fig:user-flow}
-
-        \vspace{1.2cm}
-
-        \includegraphics[width=\linewidth]{figures/system-components.png}
-        \textbf{Figure 3:} System Components
-        \label{fig:system-components}
 
     \end{center}
 
 
 }
+
 
 % footer
 % generate qr code from https://www.qr-code-generator.com/ and replace qr_code.png

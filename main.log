@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.31)  9 AUG 2024 10:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.31)  10 AUG 2024 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -669,6 +669,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <34> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 27.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <34> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 27.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 27.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -687,91 +691,66 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 27.
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 77.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 80.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 80.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]\T1/lmss/m/n/12 Web-based app over-lay-ing
- []
-
-
-Underfull \hbox (badness 7869) in paragraph at lines 77--77
-\T1/lmss/m/n/12 South Dakota state park
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\T1/lmss/m/n/12 sound-scapes onto Dakota
- []
-
-
-Underfull \hbox (badness 7888) in paragraph at lines 77--77
-[]\T1/lmss/m/n/12 2nd-order am-bisonic au-dio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\T1/lmss/m/n/12 gy-ro-scope, ac-celerom-e-ter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]\T1/lmss/m/n/12 Enhance user ex-pe-ri-ence
- []
-
 <figures/intro.PNG, id=4, 1174.3875pt x 2541.495pt>
 File: figures/intro.PNG Graphic file (type png)
 <use figures/intro.PNG>
-Package pdftex.def Info: figures/intro.PNG  used on input line 101.
-(pdftex.def)             Requested size: 79.47025pt x 171.9507pt.
-<figures/overview.png, id=5, 1174.3875pt x 2541.495pt>
-File: figures/overview.png Graphic file (type png)
-<use figures/overview.png>
-Package pdftex.def Info: figures/overview.png  used on input line 101.
-(pdftex.def)             Requested size: 79.47025pt x 171.9507pt.
-<figures/user-flow.png, id=6, 2018.41457pt x 509.86601pt>
-File: figures/user-flow.png Graphic file (type png)
-<use figures/user-flow.png>
-Package pdftex.def Info: figures/user-flow.png  used on input line 101.
-(pdftex.def)             Requested size: 162.18236pt x 40.96126pt.
-<figures/system-components.png, id=7, 2983.145pt x 1357.07pt>
-File: figures/system-components.png Graphic file (type png)
-<use figures/system-components.png>
-Package pdftex.def Info: figures/system-components.png  used on input line 101.
-(pdftex.def)             Requested size: 162.18236pt x 73.75902pt.
-<images/DSU_UniversityLogo_Stacked_BLK.png, id=9, 542.2659pt x 420.3705pt>
+Package pdftex.def Info: figures/intro.PNG  used on input line 97.
+(pdftex.def)             Requested size: 95.14508pt x 205.88324pt.
+<figures/overview.PNG, id=5, 1174.3875pt x 2541.495pt>
+File: figures/overview.PNG Graphic file (type png)
+<use figures/overview.PNG>
+Package pdftex.def Info: figures/overview.PNG  used on input line 97.
+(pdftex.def)             Requested size: 95.14508pt x 205.88324pt.
+<figures/fisher-grove-11-meters.png, id=6, 1174.3875pt x 2541.495pt>
+File: figures/fisher-grove-11-meters.png Graphic file (type png)
+<use figures/fisher-grove-11-meters.png>
+Package pdftex.def Info: figures/fisher-grove-11-meters.png  used on input line 97.
+(pdftex.def)             Requested size: 95.14508pt x 205.88324pt.
+<figures/IMG_0424.PNG, id=7, 1174.3875pt x 2541.495pt>
+File: figures/IMG_0424.PNG Graphic file (type png)
+<use figures/IMG_0424.PNG>
+Package pdftex.def Info: figures/IMG_0424.PNG  used on input line 97.
+(pdftex.def)             Requested size: 95.14508pt x 205.88324pt.
+<images/DSU_UniversityLogo_Stacked_BLK.png, id=8, 542.2659pt x 420.3705pt>
 File: images/DSU_UniversityLogo_Stacked_BLK.png Graphic file (type png)
 <use images/DSU_UniversityLogo_Stacked_BLK.png>
-Package pdftex.def Info: images/DSU_UniversityLogo_Stacked_BLK.png  used on input line 106.
+Package pdftex.def Info: images/DSU_UniversityLogo_Stacked_BLK.png  used on input line 103.
 (pdftex.def)             Requested size: 119.90288pt x 92.95566pt.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 106.
+(Font)              <20.74> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 106.
+(Font)              <14.4> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 106.
+(Font)              <12> on input line 103.
 <images/qr-code.png, id=10, 301.125pt x 301.125pt>
 File: images/qr-code.png Graphic file (type png)
 <use images/qr-code.png>
-Package pdftex.def Info: images/qr-code.png  used on input line 106.
+Package pdftex.def Info: images/qr-code.png  used on input line 103.
 (pdftex.def)             Requested size: 92.95721pt x 92.95566pt.
-[2
+ [2
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./figures/intro.PNG> <./figures/overview.png> <./figures/user-flow.png (PNG copy)> <./figures/system-components.png> <./images/DSU_UniversityLogo_Stacked_BLK.png> <./images/qr-code.png>] (./main.aux) ) 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./figures/intro.PNG> <./figures/overview.PNG> <./figures/fisher-grove-11-meters.png> <./figures/IMG_0424.PNG> <./images/DSU_UniversityLogo_Stacked_BLK.png> <./images/qr-code.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 16964 strings out of 476025
- 346683 string characters out of 5790017
- 1861388 words of memory out of 5000000
- 37066 multiletter control sequences out of 15000+600000
- 572326 words of font info for 72 fonts, out of 8000000 for 9000
+ 16967 strings out of 476025
+ 346818 string characters out of 5790017
+ 1860388 words of memory out of 5000000
+ 37069 multiletter control sequences out of 15000+600000
+ 578039 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,117p,485b,397s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (1 page, 2073674 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (1 page, 2196818 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
